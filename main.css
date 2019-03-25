@@ -1,0 +1,23 @@
+body {
+    background-color: brown
+};
+
+.card-body {
+    background-color: green;
+}
+
+.jumbotron-fluid {
+    background-color: dodgerblue;
+}
+
+.myStudents {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;   
+}
+#studentName {
+    width: 250px;
+  margin-left: 35px;
+  display: block;
+  text-align: center;
+}
