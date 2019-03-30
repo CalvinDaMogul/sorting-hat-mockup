@@ -2,22 +2,26 @@ body {
     background-color: brown
 };
 
-.card-body {
-    background-color: green;
+.col-6 offset-3 {
+    margin: 2px;
+    width: 50px;
 }
 
 .jumbotron-fluid {
     background-color: dodgerblue;
 }
 
-.myStudents {
+ /* .card-body {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;   
-}
+    justify-content: space-evenly;  
+     background-color: seagreen
+ } */
+
 #studentName {
     width: 250px;
   margin-left: 35px;
   display: block;
   text-align: center;
 }
+
